@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body{
+    margin: 10px;
+
+}
+.wrapper{
+    margin: 15px;
+    min-height: 95vh;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+}
+
+
+.box2{
+    background-color: rgb(243, 27, 174);
+    flex-grow: 1;
+}
+.two{
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
