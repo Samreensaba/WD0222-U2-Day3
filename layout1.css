@@ -1,0 +1,72 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body{
+    margin: 0;
+    min-height: 100vh;
+}
+.wrapper{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.club{
+    display: flex;
+    flex-direction: row;
+    min-height: 400px;
+}
+.header{
+    min-height: 156px;
+    background-color: rgb(14, 4, 41);
+    color: white;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.p{
+    color: white;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.clr_white{
+    width: 300px;
+    background-color: white;
+    min-height: 400px;
+    flex-grow: 1;
+    color: black;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.clr_blue{
+    width: 300px;
+    background-color: rgb(95, 45, 245);
+    min-height: 400px;
+}
+.clr_pink{
+    width: 300px;
+    background-color: rgb(180, 11, 138);
+    min-height: 400px;
+}
+.p{
+    color: white;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.footer{
+    min-height: 157px;
+    background-color: rgb(14, 4, 41);
+    color: white;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+}
